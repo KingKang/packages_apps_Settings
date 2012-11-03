@@ -68,15 +68,6 @@
                 android:targetPackage="com.aokp.romcontrol" />
     </header>
 
-    <header android:icon="@drawable/ic_settings_themes"
-            android:title="@string/themes_title">
-        <intent
-                android:action="android.intent.action.MAIN"
-                android:targetPackage="com.tmobile.themechooser"
-                android:targetClass="com.tmobile.themechooser.ThemeChooser" />
-    </header>
-
-     <!-- ParanoidAndroid Header -->
     <header
         android:id="@+id/paranoid_settings"
         android:icon="@drawable/ic_settings_paranoid"
@@ -85,6 +76,14 @@
             android:action="android.intent.action.MAIN"
             android:targetPackage="com.paranoid.preferences"
             android:targetClass="com.paranoid.preferences.PreferenceListActivity" />
+    </header>
+
+    <header android:icon="@drawable/ic_settings_themes"
+            android:title="@string/themes_title">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.tmobile.themechooser"
+                android:targetClass="com.tmobile.themechooser.ThemeChooser" />
     </header>
     
     <header android:id="@+id/advanced_settings"
